@@ -216,6 +216,29 @@ if len(numeric_df.columns) > 1:
 else:
     st.info("Not enough numeric columns for a heatmap.")
 
+st.header("Insights & Conclusion")
+
+st.markdown("""
+### Key Insights
+
+Movies represent a larger portion of Netflix's catalog than TV Shows.
+
+Most Netflix content was added between **2017 and 2020**, showing rapid platform growth.
+
+**TV-MA** is the most common content rating on Netflix.
+
+The **United States** contributes the highest number of Netflix titles.
+
+Most Netflix titles were released after **2010**, indicating a focus on recent content.
+
+The correlation between **Release Year** and **Year Added** is **weakly positive**, suggesting newer content is generally added sooner but the relationship is not very strong.
+
+
+### Conclusion
+
+This interactive dashboard demonstrates the use of **Python, Pandas, Plotly, Matplotlib, Seaborn, and Streamlit** for Exploratory Data Analysis (EDA). It provides dynamic filters, KPI cards, multiple interactive visualizations, a correlation heatmap, and downloadable filtered data, enabling users to efficiently explore and analyze the Netflix Movies and TV Shows dataset.
+""")
+
 st.header("Download Filtered Dataset")
 st.download_button(
     label="Download Filtered Dataset",
