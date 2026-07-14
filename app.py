@@ -221,17 +221,17 @@ st.header("Insights & Conclusion")
 st.markdown("""
 ### Key Insights
 
-Movies represent a larger portion of Netflix's catalog than TV Shows.
+1. Movies represent a larger portion of Netflix's catalog than TV Shows.
 
-Most Netflix content was added between **2017 and 2020**, showing rapid platform growth.
+2. Most Netflix content was added between **2017 and 2020**, showing rapid platform growth.
 
-**TV-MA** is the most common content rating on Netflix.
+3. **TV-MA** is the most common content rating on Netflix.
 
-The **United States** contributes the highest number of Netflix titles.
+4. The **United States** contributes the highest number of Netflix titles.
 
-Most Netflix titles were released after **2010**, indicating a focus on recent content.
+5. Most Netflix titles were released after **2010**, indicating a focus on recent content.
 
-The correlation between **Release Year** and **Year Added** is **weakly positive**, suggesting newer content is generally added sooner but the relationship is not very strong.
+6. The correlation between **Release Year** and **Year Added** is **weakly positive**, suggesting newer content is generally added sooner but the relationship is not very strong.
 
 
 ### Conclusion
